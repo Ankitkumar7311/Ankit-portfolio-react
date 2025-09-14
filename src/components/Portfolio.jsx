@@ -1,4 +1,10 @@
 import React from "react";
+import miranada from '../assests/miranada.png';
+import imgsearch from '../assests/image-search-app.png'
+import rapido from '../assests/Rapido.png';
+import ray from '../assests/Ray.png';
+import dict from '../assests/Dictionary.png';
+import Zomato from '../assests/Zomato.png'
 
 const Portfolio = () => {
   const projects = [
@@ -7,7 +13,7 @@ const Portfolio = () => {
       description: `Miranda is a modern interactive portfolio website built using HTML, CSS, JavaScript, and animations**.
       It showcases creative projects with bold visuals, minimal design, and smooth interactive effects.
       `,
-      img: "https://via.placeholder.com/600x400",
+      img: `${miranada}`,
       link: "https://ankitkumar7311.github.io/miranada/",
     },
     {
@@ -15,7 +21,7 @@ const Portfolio = () => {
       description: `Image Search App built with HTML, CSS, JS uses API integration to fetch and display images.
       It’s simple, responsive, and provides quick image search results.
       `,
-      img: "https://via.placeholder.com/600x400",
+      img: `${imgsearch}`,
       link: "https://ankitkumar7311.github.io/image-search-app/",
     },
     {
@@ -23,7 +29,7 @@ const Portfolio = () => {
       description: `Rapido-Clone is a replica ride-booking UI built using HTML, CSS, and JavaScript, showcasing interactive layouts and seamless responsiveness.
       It mimics core booking screens with clean design and smooth user interactions.
       `,
-      img: "https://via.placeholder.com/600x400",
+      img: `${rapido}`,
       link: "https://ankitkumar7311.github.io/Rapido-clone/",
     },
     {
@@ -31,7 +37,7 @@ const Portfolio = () => {
       description: `Ray Romano Contracting Clone built with HTML, CSS, JS replicates a contracting business website’s layout, showcasing services, portfolio, and contact info.
       It emphasizes clean design, responsive imagery, and structured sections.
       `,
-      img: "https://via.placeholder.com/600x400",
+      img: `${ray}`,
       link: "https://ankitkumar7311.github.io/Ray-Romano-Contracting-clone/",
     },
     {
@@ -39,7 +45,7 @@ const Portfolio = () => {
       description: `Dictionary App built with HTML, CSS, and JavaScript lets users search for word meanings and example usages.
       It integrates an external dictionary API for real-time results and displays them cleanly and responsively.
            `,
-      img: "https://via.placeholder.com/600x400",
+      img: `${dict}`,
       link: "https://ankitkumar7311.github.io/Dictionary-App/",
     },
     {
@@ -47,7 +53,7 @@ const Portfolio = () => {
       description: `Zomato Clone built with HTML, CSS, and JavaScript replicates the Zomato platform’s core UI and features.
       It includes restaurant search, filters, and a responsive layout for a realistic user experience.
            `,
-      img: "https://via.placeholder.com/600x400",
+      img: `${Zomato}`,
       link: "https://ankitkumar7311.github.io/Zomato-clone/",
     },
   ];

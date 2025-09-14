@@ -57,12 +57,12 @@ const Hero = () => {
         />
       </div>
 
-      {/* Popup / Modal */}
+      
       {isOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center z-50">
           <div className="bg-[#1A1A1A] p-6 rounded-2xl shadow-lg text-center w-80">
             <h2 className="text-2xl font-bold mb-4">Contact Me</h2>
-            <p className="text-gray-400 mb-4">Choose a way to connect 👇</p>
+            <p className="text-gray-400 mb-4">Choose a way to connect 🔗🔗</p>
 
             <div className="space-y-3">
               <a
@@ -72,7 +72,7 @@ const Hero = () => {
                 📧 Email Me
               </a>
               <a
-                href="https://wa.me/6203939251"
+                href="https://wa.me/+916203939251"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full px-4 py-2 border border-green-500 text-green-400 rounded-lg hover:bg-green-500 hover:text-white transition"
